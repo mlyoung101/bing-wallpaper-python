@@ -109,7 +109,7 @@ if __name__ == "__main__":
         "-r",
         "--resolution",
         help="The resolution of the image to retrieve. Default and recommended "
-        "is 1920x1080 (usually doesn't contain watermarks).",
+        "is UHD (usually doesn't contain watermarks).",
         type=str,
         default="UHD",
         choices=["UHD", "1920x1200", "1920x1080", "800x480", "400x240"],

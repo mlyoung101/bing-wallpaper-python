@@ -13,7 +13,7 @@ $ python3 bing-wallpaper.py
 $ python3 bing-wallpaper.py --help
 usage: python3 bing-wallpaper.py [-h] [-b N] [-d] [-f] [-n FILENAME]
                                  [-p PICTUREDIR] [-q]
-                                 [-r {1920x1200,1920x1080,800x480,400x240}]
+                                 [-r {UHD,1920x1200,1920x1080,800x480,400x240}]
 
 Download the latest picture of the day from Bing.com and saves it to a
 directory.
@@ -35,10 +35,10 @@ optional arguments:
                         will be created if it does not exist. [default:
                         working directory].
   -q, --quiet           Do not display log messages. [default: False].
-  -r {1920x1200,1920x1080,800x480,400x240}, 
-    --resolution {1920x1200,1920x1080,800x480,400x240}
+  -r {UHD,1920x1200,1920x1080,800x480,400x240},
+    --resolution {UHD,1920x1200,1920x1080,800x480,400x240}
                         The resolution of the image to retrieve. Default and
-                        recommended is 1920x1080 (usually doesn't contain
+                        recommended is UHD (usually doesn't contain
                         watermarks).
 
 Copyright (C) 2022 Santiago Fernández González
